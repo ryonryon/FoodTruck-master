@@ -11,6 +11,9 @@
 		8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F751CDB2B34001943DE /* FoodTruck.m */; };
 		D929789D22FD0DB700A3DD99 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = D929789C22FD0DB700A3DD99 /* Cook.m */; };
 		D92978A022FD0DEC00A3DD99 /* Ramsy.m in Sources */ = {isa = PBXBuildFile; fileRef = D929789F22FD0DEC00A3DD99 /* Ramsy.m */; };
+		D985F45322FD129200BD2139 /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = D985F45222FD129200BD2139 /* Greeter.m */; };
+		D985F45622FD130800BD2139 /* FriendlyGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = D985F45522FD130800BD2139 /* FriendlyGreetingDecider.m */; };
+		D985F45922FD135900BD2139 /* AngryGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = D985F45822FD135900BD2139 /* AngryGreetingDecider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		D929789C22FD0DB700A3DD99 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 		D929789E22FD0DEC00A3DD99 /* Ramsy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ramsy.h; sourceTree = "<group>"; };
 		D929789F22FD0DEC00A3DD99 /* Ramsy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ramsy.m; sourceTree = "<group>"; };
+		D985F45122FD129200BD2139 /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		D985F45222FD129200BD2139 /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		D985F45422FD130800BD2139 /* FriendlyGreetingDecider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendlyGreetingDecider.h; sourceTree = "<group>"; };
+		D985F45522FD130800BD2139 /* FriendlyGreetingDecider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreetingDecider.m; sourceTree = "<group>"; };
+		D985F45722FD135900BD2139 /* AngryGreetingDecider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AngryGreetingDecider.h; sourceTree = "<group>"; };
+		D985F45822FD135900BD2139 /* AngryGreetingDecider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngryGreetingDecider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 			isa = PBXGroup;
 			children = (
 				8BF87F6D1CDB2B21001943DE /* main.m */,
+				D985F45122FD129200BD2139 /* Greeter.h */,
+				D985F45222FD129200BD2139 /* Greeter.m */,
+				D985F45422FD130800BD2139 /* FriendlyGreetingDecider.h */,
+				D985F45522FD130800BD2139 /* FriendlyGreetingDecider.m */,
+				D985F45722FD135900BD2139 /* AngryGreetingDecider.h */,
+				D985F45822FD135900BD2139 /* AngryGreetingDecider.m */,
 				8BF87F741CDB2B34001943DE /* FoodTruck.h */,
 				8BF87F751CDB2B34001943DE /* FoodTruck.m */,
 				D929789B22FD0DB700A3DD99 /* Cook.h */,
@@ -134,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D985F45322FD129200BD2139 /* Greeter.m in Sources */,
+				D985F45922FD135900BD2139 /* AngryGreetingDecider.m in Sources */,
 				8BF87F6E1CDB2B21001943DE /* main.m in Sources */,
 				8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */,
 				D92978A022FD0DEC00A3DD99 /* Ramsy.m in Sources */,
+				D985F45622FD130800BD2139 /* FriendlyGreetingDecider.m in Sources */,
 				D929789D22FD0DB700A3DD99 /* Cook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
